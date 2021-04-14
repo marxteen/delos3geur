@@ -1,0 +1,8 @@
+# device specific proprietary file list
+
+# Touch frimware
+etc/firmware/yamato_pfp.fw
+etc/firmware/yamato_pm4.fw
+etc/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin
+etc/ath6k/AR6003/hw2.1.1/bdata.bin
+etc/ath6k/AR6003/hw2.1.1/fw-4.bin
