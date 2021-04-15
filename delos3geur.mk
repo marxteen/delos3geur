@@ -27,4 +27,17 @@ PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := SAMSUNG
 PRODUCT_MODEL := GT-I8552
 
+# Web Rendering
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.webview.provider=classic
+
+# Correct bootanimation size for the screen
+TARGET_BOOTANIMATION_NAME := vertical-480x800
+
+# Release name
+PRODUCT_RELEASE_NAME := GalaxyGrandQuattro
+
+UTC_DATE := $(shell date +%s)
+DATE := $(shell date +%Y%m%d)
+
 PRODUCT_GMS_CLIENTID_BASE := android-google
