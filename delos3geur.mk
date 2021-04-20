@@ -32,8 +32,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.webview.provider=classic
 
 # Correct bootanimation size for the screen
-TARGET_BOOTANIMATION_NAME := vertical-480x800
-
+#TARGET_BOOTANIMATION_NAME := 480x800
+TARGET_BOOTANIMATION_NAME :=
 # Release name
 PRODUCT_RELEASE_NAME := GalaxyGrandQuattro
 
